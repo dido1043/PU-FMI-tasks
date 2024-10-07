@@ -25,6 +25,7 @@ public:
 
 int main()
 {
+	cout << "Enter count of students: ";
 	int n;
 	cin >> n;
 
@@ -49,7 +50,7 @@ int main()
 	}
 
 	//List of students
-	cout << "Students list" << endl;
+	cout << "--------Students list--------" << endl;
 	for (int i = 0; i < n; i++)
 	{
 		studentsArray[i].display();
