@@ -1,20 +1,45 @@
-// Calculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
-
+#include <string>
+using namespace std;
+bool validSign(char& sign) {
+    return sign == '+' || sign == '-' || sign == '*' || sign == '/';
+}
+double calc(double& n1, double& n2, char& sign) {
+    double result;
+    switch (sign) {
+        case '+':
+            result = n1 + n2;
+            break;
+        case '-':
+            result = n1 - n2;
+            break;
+        case '/':
+            result = n1 / n2;
+            break;
+        case '*':
+            result = n1 * n2;
+            break;
+    }
+    return result;
+}
 int main()
 {
-    std::cout << "Hello World!\n";
+    double n1, n2;
+    char sign;
+
+    cout << "Enter n1: ";
+    cin >> n1;
+    cout << "Enter operator: ";
+    cin >> sign;
+    if (validSign(sign) == false)
+    {
+        cout << "Invalid operator!";
+        return 0;
+    }
+    cout << "Enter n2: ";
+    cin >> n2;
+
+    cout << "Result: " << calc(n1, n2, sign) << endl;
+    return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
