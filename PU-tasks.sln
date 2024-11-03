@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SchoolSystem", "SchoolSyste
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Calculator.vcxproj", "{0625FB34-C61C-42DE-A9A8-C8AC982F0046}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CarGame", "CarGame\CarGame.vcxproj", "{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{0625FB34-C61C-42DE-A9A8-C8AC982F0046}.Release|x64.Build.0 = Release|x64
 		{0625FB34-C61C-42DE-A9A8-C8AC982F0046}.Release|x86.ActiveCfg = Release|Win32
 		{0625FB34-C61C-42DE-A9A8-C8AC982F0046}.Release|x86.Build.0 = Release|Win32
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Debug|x64.ActiveCfg = Debug|x64
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Debug|x64.Build.0 = Debug|x64
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Debug|x86.Build.0 = Debug|Win32
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Release|x64.ActiveCfg = Release|x64
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Release|x64.Build.0 = Release|x64
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Release|x86.ActiveCfg = Release|Win32
+		{D383BAA7-D12A-4EFB-8334-EBCFA0F7E1B7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
